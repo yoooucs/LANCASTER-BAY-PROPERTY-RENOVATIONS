@@ -5,7 +5,7 @@ html<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lancaster & Bay Property Renovations</title>
     <style>
-        /* Resetare stiluri de bază */
+        /* Reset baseline styles */
         * {
             margin: 0;
             padding: 0;
@@ -19,7 +19,7 @@ html<!DOCTYPE html>
             line-height: 1.6;
         }
 
-        /* Navigare */
+        /* Navigation */
         nav {
             background-color: #fff;
             padding: 20px;
@@ -55,7 +55,7 @@ html<!DOCTYPE html>
             color: #2b6cb0;
         }
 
-        /* Secțiunea Hero (Prima pagină) */
+        /* Hero Section */
         .hero {
             background: linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.9)), url('https://unsplash.com') no-repeat center center/cover;
             color: #fff;
@@ -89,7 +89,7 @@ html<!DOCTYPE html>
             background-color: #d69e2e;
         }
 
-        /* Secțiuni Generale */
+        /* General Sections */
         .container {
             max-width: 1100px;
             margin: 0 auto;
@@ -113,7 +113,7 @@ html<!DOCTYPE html>
             margin: 10px auto 0 auto;
         }
 
-        /* Servicii (Grilă) */
+        /* Services Grid */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -143,7 +143,7 @@ html<!DOCTYPE html>
             margin-bottom: 10px;
         }
 
-        /* Despre noi */
+        /* About Us Box */
         .about-box {
             background-color: #edf2f7;
             padding: 40px;
@@ -169,7 +169,7 @@ html<!DOCTYPE html>
             font-size: 0.9rem;
         }
 
-        /* Subsol (Footer) */
+        /* Footer */
         footer {
             background-color: #1a365d;
             color: #fff;
@@ -178,7 +178,7 @@ html<!DOCTYPE html>
             margin-top: 60px;
         }
 
-        /* Optimizare pentru ecrane mici */
+        /* Responsive Design */
         @media (max-width: 768px) {
             nav {
                 flex-direction: column;
@@ -192,95 +192,96 @@ html<!DOCTYPE html>
 </head>
 <body>
 
-    <!-- Meniu de Navigare -->
+    <!-- Navigation Bar -->
     <nav>
         <div class="logo">LB | LANCASTER & BAY</div>
         <ul class="nav-links">
-            <li><a href="#servicii">Servicii</a></li>
-            <li><a href="#despre">Despre Noi</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Secțiunea de Sus (Hero) -->
+    <!-- Hero Section -->
     <header class="hero">
-        <h1>Muncă de calitate pentru casa și proprietatea ta</h1>
-        <p>Pavaj, garduri, zugrăveli, montaj gresie/faianță, tapet și renovări complete realizate de o echipă locală formată din doi profesioniști.</p>
-        <a href="#contact" class="btn">Cere o Ofertă Gratuită</a>
+        <h1>Quality Workmanship for Your Home & Property</h1>
+        <p>Paving, fencing, painting & decorating, tiling, wallpapering, and complete property renovations delivered by a dedicated two-man local team.</p>
+        <a href="#contact" class="btn">Get a Free Quote</a>
     </header>
 
-    <!-- Secțiunea Servicii -->
-    <section class="container" id="servicii">
-        <h2>Servicii de Construcții & Renovări</h2>
+    <!-- Services Section -->
+    <section class="container" id="services">
+        <h2>Our Services</h2>
         <div class="services-grid">
             
             <div class="service-card">
                 <div class="service-icon">▦</div>
-                <h3>Pavele & Terase</h3>
-                <p>Alei, căi de acces auto, terase și alte proiecte de pavaj exterior.</p>
+                <h3>Paving & Patios</h3>
+                <p>High-quality driveways, garden paths, patios, and outdoor paving projects.</p>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">⌁</div>
-                <h3>Garduri</h3>
-                <p>Montaj de garduri noi, reparații și înlocuirea structurilor existente.</p>
+                <h3>Fencing</h3>
+                <p>Installation of new garden fences, reliable repairs, and full structural replacements.</p>
             </div>
 
             <div class="service-card">
                 <div class="service-icon"></div>
-                <h3>Zugrăveli & Amenajări</h3>
-                <p>Vopsitorie interioară, pregătirea pereților și finisaje decorative profesionale.</p>
+                <h3>Painting & Decorating</h3>
+                <p>Interior wall painting, meticulous surface preparation, and professional finishes.</p>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">◇</div>
-                <h3>Gresie & Faianță</h3>
-                <p>Placare pereți și pardoseli pentru băi, bucătării și spații comerciale.</p>
+                <h3>Tiling</h3>
+                <p>Expert wall and floor tiling for bathrooms, kitchens, and domestic areas.</p>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">▤</div>
-                <h3>Aplicare Tapet</h3>
-                <p>Pregătirea suprafețelor, montaj tapet profesional și finisaje de precizie.</p>
+                <h3>Wallpapering</h3>
+                <p>Careful lining paper application, precise pattern matching, and neat finishes.</p>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">⌂</div>
-                <h3>Renovări Proprietăți</h3>
-                <p>Proiecte generale de îmbunătățire, modernizare și renovare completă pentru locuințe.</p>
+                <h3>Property Renovations</h3>
+                <p>General home improvements, modernisations, and refurbishment work tailored to you.</p>
             </div>
 
         </div>
     </section>
 
-    <!-- Secțiunea Despre Noi -->
-    <section class="container" id="despre">
-        <h2>Echipă Locală de Încredere</h2>
+    <!-- About Us Section -->
+    <section class="container" id="about">
+        <h2>Trusted Local Specialists</h2>
         <div class="about-box">
-            <p>Suntem o echipă locală formată din doi oameni dedicați, specializați în lucrări de construcții și renovări. Punem accent pe o comunicare clară, pregătirea atentă a suprafețelor și finisaje de înaltă calitate.</p>
-            <p style="margin-top: 15px; font-weight: bold;">Zonele în care activăm:</p>
+            <p>We are a professional two-man local team specialising in property maintenance and renovations. We pride ourselves on clear communication, thorough preparation, and delivering a clean, high-standard finish on every job.</p>
+            <p style="margin-top: 15px; font-weight: bold;">Areas We Cover:</p>
             <div class="zones">
                 <span class="zone-tag">Morecambe</span>
                 <span class="zone-tag">Lancaster</span>
                 <span class="zone-tag">Heysham</span>
                 <span class="zone-tag">Carnforth</span>
-                <span class="zone-tag">Zonele limitrofe</span>
+                <span class="zone-tag">Surrounding Areas</span>
             </div>
         </div>
     </section>
 
-    <!-- Secțiunea Contact -->
+    <!-- Contact Section -->
     <section class="container" id="contact" style="text-align: center;">
-        <h2>Începe Proiectul Tău</h2>
-        <p style="margin-bottom: 25px;">Trimite-ne câteva detalii sau fotografii cu lucrarea pe care o dorești, iar noi vom programa o vizionare pentru o ofertă de preț gratuită.</p>
-        <a href="mailto:contact@exemplu.com" class="btn">Solicită Ofertă Gratuită</a>
+        <h2>Start Your Project Today</h2>
+        <p style="margin-bottom: 25px;">Send over a few details or photos of the work you need doing, and we can arrange a viewing to provide a free, no-obligation estimate.</p>
+        <a href="mailto:info@yourcompany.com" class="btn">Request a Free Estimate</a>
     </section>
 
-    <!-- Subsol -->
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Lancaster & Bay Property Renovations. Toate drepturile rezervate.</p>
+        <p>&copy; 2026 Lancaster & Bay Property Renovations. All rights reserved.</p>
         <p style="font-size: 0.9rem; color: #a0aec0; margin-top: 5px;">Morecambe • Lancaster • Lancashire</p>
     </footer>
 
 </body>
 </html>
+
