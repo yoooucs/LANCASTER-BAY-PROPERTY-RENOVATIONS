@@ -1,11 +1,10 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lancaster & Bay Property Renovations</title>
     <style>
-        /* Reset baseline styles */
         * {
             margin: 0;
             padding: 0;
@@ -19,7 +18,6 @@ html<!DOCTYPE html>
             line-height: 1.6;
         }
 
-        /* Navigation */
         nav {
             background-color: #fff;
             padding: 20px;
@@ -48,14 +46,12 @@ html<!DOCTYPE html>
             text-decoration: none;
             color: #4a5568;
             font-weight: 500;
-            transition: color 0.3s;
         }
 
         .nav-links a:hover {
             color: #2b6cb0;
         }
 
-        /* Hero Section */
         .hero {
             background: linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.9)), url('https://unsplash.com') no-repeat center center/cover;
             color: #fff;
@@ -82,15 +78,14 @@ html<!DOCTYPE html>
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
+            margin: 10px;
             transition: background 0.3s;
-            margin: 5px;
         }
 
         .btn:hover {
             background-color: #d69e2e;
         }
 
-        /* General Sections */
         .container {
             max-width: 1100px;
             margin: 0 auto;
@@ -114,7 +109,6 @@ html<!DOCTYPE html>
             margin: 10px auto 0 auto;
         }
 
-        /* Services Grid */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -127,11 +121,6 @@ html<!DOCTYPE html>
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             text-align: center;
-            transition: transform 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
         }
 
         .service-icon {
@@ -144,7 +133,6 @@ html<!DOCTYPE html>
             margin-bottom: 10px;
         }
 
-        /* Portfolio/Gallery Styles */
         .portfolio-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -156,11 +144,6 @@ html<!DOCTYPE html>
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: transform 0.3s;
-        }
-
-        .portfolio-item:hover {
-            transform: scale(1.02);
         }
 
         .portfolio-item img {
@@ -175,12 +158,6 @@ html<!DOCTYPE html>
             text-align: center;
         }
 
-        .portfolio-info h3 {
-            font-size: 1.1rem;
-            color: #1a365d;
-        }
-
-        /* About Us Box */
         .about-box {
             background-color: #edf2f7;
             padding: 40px;
@@ -206,7 +183,6 @@ html<!DOCTYPE html>
             font-size: 0.9rem;
         }
 
-        /* Footer */
         footer {
             background-color: #1a365d;
             color: #fff;
@@ -215,7 +191,6 @@ html<!DOCTYPE html>
             margin-top: 60px;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             nav {
                 flex-direction: column;
@@ -229,7 +204,7 @@ html<!DOCTYPE html>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Meniu Navigare -->
     <nav>
         <div class="logo">LB | LANCASTER & BAY</div>
         <ul class="nav-links">
@@ -240,90 +215,70 @@ html<!DOCTYPE html>
         </ul>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Sectiune Hero -->
     <header class="hero">
         <h1>Quality Workmanship for Your Home & Property</h1>
         <p>Paving, fencing, painting & decorating, tiling, wallpapering, and complete property renovations delivered by a dedicated two-man local team.</p>
         <a href="#contact" class="btn">Get a Free Quote</a>
     </header>
 
-    <!-- Services Section -->
+    <!-- Sectiune Servicii -->
     <section class="container" id="services">
         <h2>Our Services</h2>
         <div class="services-grid">
-            
             <div class="service-card">
                 <div class="service-icon">▦</div>
                 <h3>Paving & Patios</h3>
                 <p>High-quality driveways, garden paths, patios, and outdoor paving projects.</p>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">⌁</div>
                 <h3>Fencing</h3>
                 <p>Installation of new garden fences, reliable repairs, and full structural replacements.</p>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">🎨</div>
                 <h3>Painting & Decorating</h3>
                 <p>Interior wall painting, meticulous surface preparation, and professional finishes.</p>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">◇</div>
                 <h3>Tiling</h3>
                 <p>Expert wall and floor tiling for bathrooms, kitchens, and domestic areas.</p>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">▤</div>
                 <h3>Wallpapering</h3>
                 <p>Careful lining paper application, precise pattern matching, and neat finishes.</p>
             </div>
-
             <div class="service-card">
                 <div class="service-icon">⌂</div>
                 <h3>Property Renovations</h3>
                 <p>General home improvements, modernisations, and refurbishment work tailored to you.</p>
             </div>
-
         </div>
     </section>
 
-    <!-- Portfolio Section -->
+    <!-- Sectiune Portofoliu poze -->
     <section class="container" id="portfolio">
         <h2>Our Recent Projects</h2>
         <div class="portfolio-grid">
-
-            <!-- Poza 1 -->
             <div class="portfolio-item">
-                <img src="site/IMG-20260921-WA0001.jpg" alt="Recent Renovation Project 1">
-                <div class="portfolio-info">
-                    <h3>Property Renovation</h3>
-                </div>
+                <img src="site/IMG-20260921-WA0001.jpg" alt="Project 1">
+                <div class="portfolio-info"><h3>Property Renovation</h3></div>
             </div>
-
-            <!-- Poza 2 -->
             <div class="portfolio-item">
-                <img src="site/IMG-20260921-WA0003.jpg" alt="Recent Renovation Project 2">
-                <div class="portfolio-info">
-                    <h3>Interior Decorating & Tiling</h3>
-                </div>
+                <img src="site/IMG-20260921-WA0003.jpg" alt="Project 2">
+                <div class="portfolio-info"><h3>Interior Decorating</h3></div>
             </div>
-
-            <!-- Poza 3 -->
             <div class="portfolio-item">
-                <img src="site/IMG-20260921-WA0007.jpg" alt="Recent Renovation Project 3">
-                <div class="portfolio-info">
-                    <h3>Paving & Fencing Work</h3>
-                </div>
+                <img src="site/IMG-20260921-WA0007.jpg" alt="Project 3">
+                <div class="portfolio-info"><h3>Paving & Fencing Work</h3></div>
             </div>
-
         </div>
     </section>
 
-    <!-- About Us Section -->
+    <!-- Sectiune Despre Noi -->
     <section class="container" id="about">
         <h2>Trusted Local Specialists</h2>
         <div class="about-box">
@@ -339,6 +294,20 @@ html<!DOCTYPE html>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Sectiune Contact - Datele tale sunt adaugate curat mai jos -->
+    <section class="container" id="contact" style="text-align: center; padding-top: 40px; padding-bottom: 40px;">
+        <h2>Start Your Project Today</h2>
+        <p style="margin-bottom: 20px;">Send over a few details or photos of the work you need doing, and we can arrange a viewing to provide a free, no-obligation estimate.</p>
+        
+        <p style="font-size: 1.4rem; font-weight: bold; color: #1a365d; margin-top: 10px; margin-bottom: 5px;">
+            Phone: 07844334829
+        </p>
+        
+        <p style="font-size: 1.2rem; font-weight: bold; color: #4a5568; margin-bottom: 25px;">
+            Email: yoooucs@yahoo.com
+        </p>
 
-  
+        <div>
+            <a href="tel:07844334829" class="btn" style="background-color: #2b6cb0; color: #fff;">Call Now</a>
+            <a href="https://wa.me" target="_blank" class="btn" style="background-color: #25D366; color: #fff;">WhatsApp</a>
+
